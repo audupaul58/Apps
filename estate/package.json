@@ -1,0 +1,36 @@
+{
+  "name": "nextutone",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.3.1",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.1",
+    "framer-motion": "^7.2.1",
+    "millify": "^5.0.0",
+    "next": "12.2.3",
+    "nprogress": "^0.2.0",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.34.2",
+    "react-horizontal-scrolling-menu": "^3.2.0",
+    "react-icons": "^4.4.0",
+    "react-responsive-carousel": "^3.2.23",
+    "sass": "^1.54.8",
+    "scss": "^0.2.4",
+    "swr": "^1.3.0"
+  },
+  "devDependencies": {
+    "eslint": "8.20.0",
+    "eslint-config-next": "12.2.3"
+  }
+}

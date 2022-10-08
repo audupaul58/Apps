@@ -1,0 +1,58 @@
+@import '../../styles/color.module';
+@import '../../styles/breakpoints.module';
+
+.myheader{
+    position: sticky;
+    width: 100vw;
+    background-color: RGB(237 242 247);
+    top: 0;
+    bottom: 2rem;
+    //width: 100%;
+   // margin-bottom: 15vh;
+    z-index: 999;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+    .social{
+        display: flex;
+        max-width: 1000px;
+        justify-content: flex-end;
+
+        
+       
+    }
+}
+
+.navba{
+    max-width: 1200px;
+    min-width: 100%;
+    padding: 4vh 0;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 1px 15px 22px 10px rgba(0,0,0,0.55);
+-moz-box-shadow: 1px 15px 22px 10px rgba(0,0,0,0.55);
+box-shadow: 1px 15px 22px 10px rgba(0,0,0,0.55);
+
+    @include breakpointdown(xsmall){
+        width: 100vw
+    }
+
+    .nav_comp{
+        display: flex;
+        justify-content: space-around;
+        width: 1000px;
+        //background-color: #fff;
+    }
+
+    h2{
+        display: flex;
+        align-items: center;
+        padding-inline: 5vw;
+
+        .logImage{
+            background: inherit;
+            font-size:xx-large;
+            font-weight: bold;
+        }
+    }
+
+}

@@ -1,0 +1,30 @@
+.search_prop{
+
+    form{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+        justify-content: center;
+        margin: 5px;
+        margin-inline: auto;
+        padding: 5px;
+
+       
+        
+        input{
+          width: 100%;
+          bottom: none;
+          //margin-bottom: 3vh;
+          outline: none;
+          border: none;
+          border-radius: 20px;
+          background-color: inherit;
+       
+        }
+      }
+
+}
+
+
+ 

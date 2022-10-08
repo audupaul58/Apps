@@ -1,0 +1,56 @@
+.banner_container{
+    font-size: clamp(12px, 1.2vw, 12rem);
+    max-width: 300px;
+    min-height: fit-content;
+    text-align: center;
+
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 200;
+        font-weight: bold;
+    }
+    
+   
+  
+
+    .innerFlex{
+      padding-top: 2px;
+      align-items: center;
+      //justify-content: space-between;
+ 
+     
+    }
+
+    .itemTop{
+        display: flex;
+        max-width: 320px;
+        justify-content: space-between;
+        align-items: center;
+       
+        .unverfy{
+            color: red;
+           }
+        
+           .verify{
+            color: green;
+           }
+
+        
+    }
+
+    .facility{
+        display: flex;
+        max-width: 200px; 
+        align-items: center;
+        justify-content: space-around;
+    }
+
+
+    .temtexty{
+       background-color: red;
+       width: 300px;
+       padding-inline: 2px;
+       margin: 5px;
+       align-items: center;
+       justify-content: center;
+    }
+   }

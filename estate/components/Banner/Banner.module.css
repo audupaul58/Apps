@@ -1,0 +1,20 @@
+.myMain {
+  width: 1280px;
+  -webkit-margin-end: auto;
+          margin-inline-end: auto;
+}
+
+.mainCont {
+  top: 0;
+  left: 20%;
+  margin-top: 20px;
+}
+
+.banner_container {
+  width: 100%;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3vh;
+}/*# sourceMappingURL=Banner.module.css.map */

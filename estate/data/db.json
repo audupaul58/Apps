@@ -1,0 +1,150 @@
+{
+    "sales":[{
+        "id": 1,
+        "coverPhoto": "/images/m4.jpg",
+        "price": 45,
+        "category":"sales",
+        "rooms": 62,
+        "title": "vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis",
+        "baths": 82,
+        "area": 76,
+        "isVerify": false,
+        "agency": "/images/l1.jpg"
+      }, {
+        "id": 2,
+        "coverPhoto": "/images/m5.jpg",
+        "price": 45,
+       "category":"sales",
+        "rooms": 98,
+        "title": "tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum",
+        "baths": 29,
+        "area": 11,
+        "isVerify": true,
+        "agency": "/images/l4.jpg"
+      }, {
+        "id": 3,
+        "coverPhoto": "/images/m6.jpg",
+        "price": 10,
+        "category":"sales",
+        "rooms": 10,
+        "title": "suspendisse potenti nullam porttitor lacus at turpis",
+        "baths": 91,
+        "area": 36,
+        "isVerify": false,
+        "agency": "/images/l3.jpg"
+      }, {
+        "id": 4,
+        "coverPhoto": "/images/images1.jpg",
+        "price": 84,
+       "category":"sales",
+        "rooms": 89,
+        "title": "pellentesque volutpat dui maecenas tristique",
+        "baths": 79,
+        "area": 56,
+        "isVerify": true,
+        "agency": "/images/l4.jpg"
+      }, {
+        "id": 5,
+        "coverPhoto": "/images/images5.jpg",
+        "price": 60,
+       "category":"sales",
+        "rooms": 79,
+        "title": "adipiscing lorem vitae ",
+        "baths": 11,
+        "area": 33,
+        "isVerify": true,
+        "agency": "/images/l1.jpg"
+      }, {
+        "id": 6,
+        "coverPhoto": "/images/m5.jpg",
+        "price": 60,
+        "category":"sales",
+        "rooms": 79,
+        "title": "adipiscing lorem vitae ",
+        "baths": 11,
+        "area": 33,
+        "isVerify": false,
+        "agency": "/images/l1.jpg"
+      },
+
+      {
+        "id": 6,
+        "coverPhoto":  "/images/m2.jpg",
+        "price": 400000,
+        "rentFrequency": "monthly",
+        "category":"rent",
+        "rooms": 46,
+        "title": "luctus cum sociis natoque ",
+        "baths": 94,
+        "area": 9,
+        "isVerify": true,
+        "agency": "/images/l3.jpg", 
+        "amenities": []
+
+      }, {
+        "id": 7,
+        "coverPhoto":  "/images/index1.jpg",
+        "price": 350000,
+        "rentFrequency": "yearly",
+        "category":"rent",
+        "rooms": 95,
+        "title": "sed accumsan felis ut at",
+        "baths": 74,
+        "area": 87,
+        "isVerify": false,
+        "agency": "/images/l8.png"
+      }, {
+        "id": 8,
+        "coverPhoto":  "/images/index2.jpg",
+        "price": 280000,
+        "rentFrequency": "Monthly",
+        "category":"rent",
+        "rooms": 44,
+        "title": "sapien ut nunc vestibulum",
+        "baths": 29,
+        "area": 76,
+        "isVerify": true,
+        "agency": "/images/l6.png"
+      }, {
+        "id": 9,
+        "coverPhoto":  "/images/m1.jpg",
+        "price": 300000,
+        "rentFrequency": "Yearly",
+        "category":"rent",
+        "rooms": 86,
+        "title": "lobortis est phasellus",
+        "baths": 70,
+        "area": 75,
+        "isVerify": false,
+        "agency": "/images/l1.jpg"
+      }, {
+        "id": 10,
+        "coverPhoto":  "/images/m3.jpg",
+        "price": 250000,
+        "rentFrequency": "Monthly",
+        "category":"rent",
+        "rooms": 14,
+        "title": "congue diam id ornare ",
+        "baths": 28,
+        "area": 2,
+        "isVerify": true,
+        "agency": "/images/l1.png"
+      }  
+      , {
+        "id": 11,
+        "coverPhoto":  "/images/images5.jpg",
+        "price": 200000,
+        "rentFrequency": "Yearly",
+        "category":"rent",
+        "rooms": 14,
+        "title": "congue diam id ornare ",
+        "baths": 28,
+        "area": 2,
+        "isVerify": false,
+        "agency": "/images/l5.png"
+      } 
+    
+    ]
+
+     
+}

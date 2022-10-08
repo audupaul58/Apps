@@ -1,0 +1,138 @@
+@import '../../../styles/breakpoints.module';
+
+.flexcon{
+  justify-content: flex-start;
+  align-items: center; 
+  padding: 0;
+  margin: 0;
+  max-width: 1000px;
+  
+
+ 
+ 
+ 
+  .banner_container{
+    padding-top: 7vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    min-height: fit-content;
+    box-sizing: border-box;
+   
+  
+
+    .innerFlex{
+      padding-top: 2px;
+      align-items: center;
+      //justify-content: space-between;
+ 
+      .unverfy{
+       color: red;
+      }
+    }
+   }
+
+}
+
+.searchBox{
+  display: grid;
+  min-width: 100%;
+  margin: 0;
+  padding: 25px;
+  width: 100;
+  
+ 
+  background-color: rgb(237,242,247);
+  cursor: pointer;
+  border-bottom: 1px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: medium;
+  
+  
+  //margin: auto;
+
+  .cat_prop{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-around;
+    //max-width: 400px;
+    gap: 25vw;
+    color: rgb(68,51,122);
+
+    P{
+      font-size: small;
+      text-align: center;
+      font-weight: 200;
+     
+      &:hover{
+        background-color:  rgb(68,51,122); 
+        color: whitesmoke;
+      }
+    }
+  }
+
+ 
+}
+
+.notFound{
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.amenity{
+  color: RGB(45 81 127);
+  font-size: small;
+  text-transform: capitalize;
+  font-weight: bold;
+  background-color: rgb(231, 223, 223);
+  padding: 2px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.related{
+  display: grid;
+  max-width: 150px;
+  font-size: clamp(12px, 1.1vw, 15rem);
+
+  @include breakpoint(xsmall){
+    
+    max-width: 400px;
+
+    grid-template-columns: 1fr 1fr;
+  }
+
+  h2{
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: smaller;
+  }
+}
+
+.searchHead{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 0;
+  margin: 12px 0;
+  text-align: center;
+  font-size: clamp(15px, 1.8vw, 15rem);
+  font-weight: 200;
+  text-transform: uppercase;
+  color: rgb(68,51,122);
+}
+
+.fontstyles{
+  font-size: small;
+  font-weight: bold;
+}
+
+.listDos{
+  max-width: 900px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(250px, max(64px, 100%/3)), 1fr));
+}

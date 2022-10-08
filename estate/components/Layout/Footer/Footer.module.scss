@@ -1,0 +1,61 @@
+
+
+.footerDistributed{
+    width: 100vw;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 25vh;
+    background-color: RGB(34 20 80);
+    margin-top: 4vh;
+    
+    color: white;
+    padding: 10rem 0;
+
+    .footerContainer{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+        box-sizing: border-box;
+        max-width: 600px;
+        font: normal 16px sans-serif;
+
+        .f_left{
+
+            width: 250px;
+            font-size: small;
+           
+            p{
+                &:hover{
+                    background-color: aliceblue;
+                    color: rgb(68,51,122);
+                    font-weight: bolder;
+                    
+                }
+
+            }
+            
+
+        .f_header{
+            margin-top: 3vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: aliceblue;
+            background: inherit;
+            font-size: smaller;
+
+            .logImage{
+                font-weight: bolder;
+                font-size: xx-large;
+            }
+
+           
+        }
+        
+    }
+}
+    
+}
